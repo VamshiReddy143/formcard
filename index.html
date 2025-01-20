@@ -3,61 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Results Summary</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-
-            <div class="left">
-                  <h2>Yout Result</h2>
-                 <div class="circle">
-                    <h1>76</h1>
-                    <p>of 100</p>
-                 </div>
-                  <h1>Great</h1>
-                  <p class="p">You scored higher than 65% of the people who have taken these tests.</p>
+    <div class="card">
+        <div class="result-section">
+            <h3>Your Result</h3>
+            <div class="score-circle">
+                <span class="score">76</span>
+                <span class="total">of 100</span>
             </div>
-
-            <div class="right">
-                  <h2>Summery</h2>
-                  <div class="scores">
-                       <div class="first">
-                         <div class="grid">
-                            <img src="./images/icon-reaction.svg"/>
-                            <p class="name">Reaction</p>
-                         </div>
-                         <p><strong>80</strong>/100</p>
-                       </div>
-                       <div class="second">
-                        <div class="grid">
-                           <img src="./images/icon-memory.svg"/>
-                           <p class="name">Memory</p>
-                        </div>
-                        <p><strong>92</strong>/100</p>
-                      </div>
-
-                      <div class="third">
-                        <div class="grid">
-                           <img src="./images/icon-verbal.svg"/>
-                           <p class="name">Verbal</p>
-                        </div>
-                        <p><strong>61</strong>/100</p>
-                      </div>
-
-                      <div class="fourth">
-                        <div class="grid">
-                           <img src="./images/icon-visual.svg"/>
-                           <p class="name">Visual</p>
-                        </div>
-                        <p><strong>72</strong>/100</p>
-                      </div>
-                  </div>
-
-                  <button>Continue</button>
-            </div>
+            <h2>Great</h2>
+            <p class="description">You scored higher than 65% of the people who have taken these tests.</p>
         </div>
-    </div>   
+        
+        <div class="summary-section">
+            <h3>Summary</h3>
+            
+            <div class="summary-items">
+                <div class="summary-item reaction">
+                    <div class="item-name">
+                        <span class="icon"><img src="images/icon-reaction.svg" alt=""></span>
+                        Reaction
+                    </div>
+                    <div class="item-score">
+                        <span class="score">80</span>
+                        <span class="total">/ 100</span>
+                    </div>
+                </div>
+
+                <div class="summary-item memory">
+                    <div class="item-name">
+                        <span class="icon"><img src="images/icon-memory.svg" alt=""></span>
+                        Memory
+                    </div>
+                    <div class="item-score">
+                        <span class="score">92</span>
+                        <span class="total">/ 100</span>
+                    </div>
+                </div>
+
+                <div class="summary-item verbal">
+                    <div class="item-name">
+                        <span class="icon"><img src="images/icon-verbal.svg" alt=""></span>
+                        Verbal
+                    </div>
+                    <div class="item-score">
+                        <span class="score">61</span>
+                        <span class="total">/ 100</span>
+                    </div>
+                </div>
+
+                <div class="summary-item visual">
+                    <div class="item-name">
+                        <span class="icon"><img src="images/icon-visual.svg" alt=""></span>
+                        Visual
+                    </div>
+                    <div class="item-score">
+                        <span class="score">72</span>
+                        <span class="total">/ 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="continue-btn">Continue</button>
+        </div>
+    </div>
 </body>
 </html>

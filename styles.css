@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.card{
+    display: flex;
+    box-shadow: 1px 0px 20px;
+    border-radius: 30px;
+   
+}
+.left{
+    background:linear-gradient(to bottom,hsl(252, 100%, 67%) 1%,hsl(241, 86%, 56%) 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 30px;
+}
+.left .p{
+  width: 200px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: rgb(197, 190, 190);
+  line-height: 20px;
+}
+.circle {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background: radial-gradient(to bottom, hsla(0, 30%, 96%, 0.845),rgb(21, 33, 125));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0px 10px 30px  rgba(0, 0, 0, 0.2);
+}
+.circle h1{
+    font-size: 50px;
+}
+.circle p{
+    color: rgb(147, 144, 144);
+    font-size: 13px;
+    
+}
+
+.left h2{
+     color: rgba(222, 212, 212, 0.993);
+     margin-bottom: 10px;
+     font-size: 20px;
+}
+.left h1{
+    margin-top: 20px;
+}
+.right{
+    padding: 20px 25px;
+}
+.right .first ,.second,.third,.fourth{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.right h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+.grid{
+    display: flex;
+    padding: 10px 40px;
+    gap: 10px; 
+}
+.first{  
+    background-color:hsl(0, 66%, 83%);
+    padding-right:10px;
+    border-radius:5px;
+    display: flex;
+    
+}
+.first img{
+    color: red;   
+}
+.first .name{
+    color: red; 
+}
+.second{
+    background-color:  hsl(39, 37%, 89%);
+    padding-right: 10px ;
+    border-radius: 5px;
+}
+
+.second img{
+    color: hsl(39, 100%, 56%);   
+}
+.second .name{
+    color: hsl(39, 100%, 56%);   
+}
+
+.third{
+    background-color:  hsl(165, 82%, 91%);
+    padding-right: 10px ;
+    border-radius: 5px;
+}
+
+.third img{
+    color:hsl(166, 100%, 37%);
+}
+.third .name{
+    color:hsl(166, 100%, 37%);
+}
+
+
+.fourth{
+    background-color:  hsl(235, 57%, 92%);
+    padding-right: 10px ;
+    border-radius: 5px;
+}
+
+.fourth img{
+    color:hsl(234, 85%, 45%);
+}
+.fourth .name{
+    color:hsl(234, 85%, 45%);
+}
+button{
+    background-color:black;
+    color: white;
+    padding: 15px 20px;
+    width: 100%;
+    margin-top: 30px;
+    font-weight: 600;
+    border-radius: 30px;
+}
